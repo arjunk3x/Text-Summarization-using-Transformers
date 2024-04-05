@@ -9,14 +9,20 @@ Text summarization involves condensing large amounts of text into shorter versio
 **Features**
 
 _Web Scraping:_ The script demonstrates how to scrape web content using the BeautifulSoup library, extracting relevant text for summarization.
+
 _Preprocessing:_ Text preprocessing techniques are applied to prepare the input text for summarization, including sentence segmentation and chunking.
+
 _Summarization:_ Leveraging the transformers library, the script utilizes pre-trained models for text summarization, generating concise summaries while controlling length and preserving important information.
+
 _Customization:_ Users can adjust parameters such as maximum and minimum summary length to tailor the summarization process according to their requirements.
+
 _Scalability:_ The script is designed to handle large volumes of text efficiently, making it suitable for summarizing lengthy articles, research papers, or documents.
 
 **Getting Started**
 
 To use the text summarization script:
 a) Install the required libraries: transformers, beautifulsoup4, and requests.
+
 b) Clone this repository to your local machine.
+
 c) Run the script, providing the URL of the web page you want to summarize as input.
