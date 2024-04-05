@@ -7,6 +7,8 @@ This repository provides a Python script demonstrating text summarization using 
 
 1) Pipeline for Transformers
 2) bs4 for Beautiful Soup
+3) Requests
+4) Pandas
 
 **Overview**
 Text summarization involves condensing large amounts of text into shorter versions, capturing the main points and key details. Traditional methods often struggle to maintain coherence and relevance in the summaries. However, with the advent of transformer-based models like BERT, GPT, and T5, text summarization has seen significant advancements. This repository utilizes the Hugging Face transformers library, which provides easy-to-use interfaces to pre-trained transformer models for various NLP tasks, including text summarization. By fine-tuning these models on specific summarization datasets or using them out-of-the-box, accurate and coherent summaries can be generated from input text.
